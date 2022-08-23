@@ -1,0 +1,256 @@
+*{
+    font-family:  Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+.title-section-container{
+    background-image: url("imgs/background-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 97%;
+    height: 60vh;
+}
+
+.main-content{
+    float: left;
+    margin-top: 5%;
+    width: 45%;
+    margin-left: 10%;
+    color: white;
+}
+.main-text{
+    font-size: 1.5rem;
+}
+
+.main-paragraph{
+    font-size: 1.3rem;
+}
+
+.main-call-action >h4{
+    text-align: center;
+    width: 50%;
+    border: solid;
+    border-radius: 25px;
+    border-image: linear-gradient(180deg, rgba(135,86,0,1) 0%, rgba(237,198,100,1) 87%, rgba(241,223,126,1) 90%, rgba(231,186,84,1) 96%, rgba(143,94,9,1) 97%, rgba(231,186,84,1) 98%, rgba(231,186,84,1) 99%) 1;
+    padding: 20px;
+}
+
+.services-section{
+    text-align: justify;
+    text-justify: inter-word;
+    overflow-x: hidden;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+
+.service-card{
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 1px 2px #8F8E8E;
+    margin: auto;
+}
+
+.service-card >h1{
+    font-size: 1.5rem;
+    text-align:left;
+}
+
+.grey-card{
+    color: #1C3F25;
+}
+.grey{
+    color: #8F8E8E;
+}
+
+.green-card{
+    background-color: #1C3F25;
+    color: white;
+}
+
+.col-8 >h1{
+    margin-top: 15%;
+    margin-bottom: 25%;
+    font-size: 120%;
+}
+
+.portfolio-text{
+    text-align: center;
+    color: #8F8E8E;
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.portfolio-section{
+    overflow-x: hidden;
+    margin-bottom: 5%;
+}
+
+.small-house-special{
+    width: 122%;
+}
+
+.contact-us-section{
+    background-image: url("imgs/green-background.png");
+    background-size:contain;
+    width: 100%;
+    height: 100vh;
+    float: left;
+    margin-bottom: 5%;
+}
+
+.lets-talk-img{
+    margin-top: 5%;
+    margin-left: auto!important;
+    margin-right: auto !important;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+.contact-us-title{
+    color: white;
+    width: 50%;
+}
+
+.contact-us-title{
+    width: 80%;
+    margin-left: 15%;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+.contact-form{
+    width: 70%;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 3%;
+
+}
+
+.form-control{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.form-control-last{
+    margin-top: 0%;
+    margin-bottom: 10%;
+    border:solid 5px;
+    border-image: linear-gradient(180deg, rgba(135,86,0,1) 0%, rgba(237,198,100,1) 87%, rgba(241,223,126,1) 90%, rgba(231,186,84,1) 96%, rgba(143,94,9,1) 97%, rgba(231,186,84,1) 98%, rgba(231,186,84,1) 99%) 1;
+    background-color:transparent;  
+    background:  transparent;
+    line-height:30px;
+    font-weight:bold;
+    color:black;
+    opacity:0.4 ; 
+}
+
+input[type="text"],input[type="email"],input[type="number"]{
+border: 0;
+
+border-bottom: 4px solid #9b9b9b;
+border-image: linear-gradient(180deg, rgba(135,86,0,1) 0%, rgba(237,198,100,1) 87%, rgba(241,223,126,1) 90%, rgba(231,186,84,1) 96%, rgba(143,94,9,1) 97%, rgba(231,186,84,1) 98%, rgba(231,186,84,1) 99%) 1;
+font-size: 1.3rem;
+color: #fff;
+background-color:transparent;  
+background:  transparent;
+line-height:30px;
+font-weight:bold;
+color:white;
+opacity:0.9 ; 
+}
+
+label{
+font-size: 1.3rem;
+color: #9b9b9b;
+text-align: center;
+}
+
+.contact-info{
+    width: 90%;
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+.lets-talk-info{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.lets-talk-info-last {
+    margin-bottom: 5%;
+}
+
+iframe{
+    border-radius: 20px;
+}
+
+.footer-cards{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1C3F25;
+    overflow-x: hidden;
+}
+
+.portfolio-title{
+    float: right;
+}
+
+.portfolio-container{
+    margin-top: 10%;
+}
+
+.footer-card>h1{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.touch{
+    font-weight: bold;
+}
+
+.toucha{
+    margin-top: 2%;
+}
+
+.side-images1{
+    top: 23%; /* your required value */
+    right: 0;
+    position: fixed;
+    width: 5%;
+}
+
+.side-images2{
+    top: 35%; /* your required value */
+    right: 0;
+    position: fixed;
+    width: 5%;
+
+}
+
+.side-images3{
+    top: 48%; /* your required value */
+    right: 0;
+    position: fixed;
+    width: 5%;
+
+}
+
+.side-images4{
+    top: 60%; /* your required value */
+    right: 0;
+    position: fixed;
+    width: 7%;
+
+}
