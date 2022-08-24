@@ -39,12 +39,10 @@ body{
 
 .services-section{
     text-align: justify;
-    text-justify: inter-word;
-    overflow-x: hidden;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 .services-cards{
@@ -52,12 +50,10 @@ body{
 }
 
 .service-card{
-    width: 30%;
     border-radius: 20px;
     box-shadow: 1px 2px #8F8E8E;
-    margin: auto;
-    padding: 3%;
-    padding-bottom: 1%;
+    padding: 2%;
+
 }
 
 .service-card >h1{
@@ -94,7 +90,6 @@ body{
 
 .portfolio-section{
     overflow-x: hidden;
-    margin-bottom: 1.5%;
 }
 
 .small-house-special{
@@ -307,7 +302,7 @@ iframe{
     font-size: 1.6rem;
     margin-right: 5%;
     padding: 2%;
-    padding-top: 3%;
+    padding-top: 4%;
     color: #1C3F25 !important;
     text-decoration: none;
     -webkit-transition: background 1s; /* For Safari 3.0 to 6.0 */
