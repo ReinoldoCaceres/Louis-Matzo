@@ -37,6 +37,14 @@ body{
     width: auto;
 }
 
+.element-31{
+	width: 25%;
+}
+
+.element-32{
+	width: 20%;
+}
+
 .services-section{
     text-align: justify;
     width: 90%;
@@ -88,7 +96,7 @@ body{
     color: #8F8E8E;
     width: 60%;
     margin: auto;
-    margin-top: 5%;
+    margin-top: -7%;
     margin-bottom: 2%;
 }
 
@@ -223,6 +231,7 @@ iframe{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+	  margin-top: 5%;
     text-align: end;
 }
 
