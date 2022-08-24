@@ -49,11 +49,15 @@ body{
     padding-bottom: 1%;
 }
 
+.second-row{
+    height: 20vh;
+}
+
 .service-card{
     border-radius: 20px;
     box-shadow: 1px 2px #8F8E8E;
-    padding: 2%;
-
+    padding: 5%;
+    height: 100%;
 }
 
 .service-card >h1{
