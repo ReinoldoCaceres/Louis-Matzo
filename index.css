@@ -332,6 +332,12 @@ iframe{
 }
 
 @media only screen and (max-width: 768px) {
+    .li:first-child{
+        margin-left: 0%;
+    }
+    .logo{
+        width: 200px;
+    }
 
     .main-content {
         width: 75%;
@@ -357,5 +363,36 @@ iframe{
     .col-md-4{
         margin-top: 5%;
         margin-bottom: 5%;
+    }
+
+    .portfolio-title,.sercices-title{
+        text-align: center;
+    }
+
+    .element-31{
+        width: 70%;
+
+    }
+
+    .lets-talk-img{
+        text-align: center;
+        margin-top: 5%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center;
+        width: 50%;
+        margin-bottom: 10%;
+    }
+
+    .lets-talk-img>img{
+        width: 250px;
+    }
+    
+    .element-32{
+        width: 75%;
+    }
+
+    .contact-info{
+        margin-top: 15%;
     }
 }
