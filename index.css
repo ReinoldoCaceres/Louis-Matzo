@@ -111,9 +111,10 @@ body{
     overflow-x: hidden;
 }
 
-.small-house-special{
-    width: 122%;
+.house-image-div{
+    position: relative;
 }
+
 
 .contact-us-section{
     background-image: url("imgs/green-background.png");
@@ -339,6 +340,16 @@ iframe{
 }
 
 @media only screen and (max-width: 768px) {
+
+    .title-section-container{
+        background-image: url("imgs/background-img.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 70vh;
+        margin-top: 2%;
+    }
+
     .li:first-child{
         margin-left: 0%;
     }
