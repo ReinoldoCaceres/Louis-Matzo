@@ -329,4 +329,33 @@ iframe{
 .li:hover {
     background-color: #1C3F25;
     color: white !important;
-  }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .main-content {
+        width: 75%;
+        margin-top: 5%;
+        color: white;
+      }
+    .main-call-img{
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .service-card{
+        border-radius: 20px;
+        box-shadow:  2px 2px 4px #565656;
+        padding: 5%;
+        height: 100%;
+    }
+    .responsive{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .col-md-4{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
