@@ -191,12 +191,12 @@ body{
     margin-bottom: 10%;
     border:solid 5px;
     border-image: linear-gradient(180deg, rgba(135,86,0,1) 0%, rgba(237,198,100,1) 87%, rgba(241,223,126,1) 90%, rgba(231,186,84,1) 96%, rgba(143,94,9,1) 97%, rgba(231,186,84,1) 98%, rgba(231,186,84,1) 99%) 1;
-    background-color:transparent;  
+    background-color:transparent;
     background:  transparent;
     line-height:30px;
     font-weight:bold;
     color:black;
-    opacity:0.4 ; 
+    opacity:0.4 ;
 }
 
 input[type="text"],input[type="email"],input[type="number"]{
@@ -206,12 +206,12 @@ border-bottom: 4px solid #9b9b9b;
 border-image: linear-gradient(180deg, rgba(135,86,0,1) 0%, rgba(237,198,100,1) 87%, rgba(241,223,126,1) 90%, rgba(231,186,84,1) 96%, rgba(143,94,9,1) 97%, rgba(231,186,84,1) 98%, rgba(231,186,84,1) 99%) 1;
 font-size: 1.3rem;
 color: #fff;
-background-color:transparent;  
+background-color:transparent;
 background:  transparent;
 line-height:30px;
 font-weight:bold;
 color:white;
-opacity:0.9 ; 
+opacity:0.9 ;
 }
 
 label{
@@ -485,7 +485,7 @@ iframe{
     .lets-talk-img>img{
         width: 250px;
     }
-    
+
     .element-32{
         width: 75%;
     }
