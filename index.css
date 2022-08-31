@@ -1,7 +1,10 @@
 *{
-    font-family:  Arial, sans-serif;
+    font-family:  Gotham, sans-serif;
 }
-
+ @font-face {
+    font-family: 'Gotham';
+    src: url(/fonts/Gotham_Fonts/GothamMedium_1.ttf);
+ }
 body{
     margin: 0;
     padding: 0;
@@ -244,6 +247,7 @@ iframe{
     margin-left: auto;
     color: #1C3F25;
     overflow-x: hidden;
+    padding-top: 1%;
 }
 
 .portfolio-title{
