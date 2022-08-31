@@ -96,6 +96,15 @@ body{
     color: #8F8E8E;
 }
 
+.grey>h1{
+    word-wrap: break-word;
+}
+.col-8 >h1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 .green-card{
     background-color: #1C3F25;
     color: white;
