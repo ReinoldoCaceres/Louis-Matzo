@@ -361,9 +361,9 @@ iframe{
 
 .image {
     position: relative;
-    
-}
 
+}
+/*
 .image__overlay {
     position: absolute;
     top: 0;
@@ -400,7 +400,7 @@ iframe{
 .image__overlay:hover > * {
     transform: translateY(0);
 }
-
+*/
 .image__title {
     font-size: 2em;
     font-weight: bold;
