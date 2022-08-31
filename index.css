@@ -301,11 +301,11 @@ iframe{
     width: 90px;
     z-index: 1;
 }
-.side-images4{
-    transition: all .2s ease-in-out;
+.side-images4 {
+    transition: all .2s ease-in-out!important;
 }
-.side-images4:hover{
-    transform: scale(1.5);
+.side-images4:hover {
+    transform: scale(1.5)!important;
 }
 
 .copyright>h4{
