@@ -308,7 +308,7 @@ iframe{
 }
 
 .side-images4{
-    top: 62%; /* your required value */
+    top: 85%; /* your required value */
     right: 0;
     position: fixed;
     width: 90px;
@@ -440,7 +440,7 @@ iframe{
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
-        height: 60vh;
+        height: 70vh;
         margin-top: 2%;
     }
 
