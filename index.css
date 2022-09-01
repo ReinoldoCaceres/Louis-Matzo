@@ -251,8 +251,10 @@ text-align: center;
 }
 
 iframe{
-    border-radius: 20px;
-    margin-top: 10%;
+}
+
+.footer-section{
+    margin-top: -5%;
 }
 
 .footer-cards{
