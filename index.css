@@ -160,10 +160,10 @@ body{
 .submit{
     margin-top: 1%;
     font-size: 1.9rem;
-    border:none;
+    border: none!important;
     text-align: right;
     color: white;
-    background-color: transparent;
+    background-color: transparent!important;
     width: 70%;
     margin-left: auto !important;
     margin-right: auto !important;
