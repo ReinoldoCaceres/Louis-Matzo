@@ -530,6 +530,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .contact-info{
         margin-top: 15%;
     }
+
+    iframe{
+        height:140vh;
+    }
 }
 
 
