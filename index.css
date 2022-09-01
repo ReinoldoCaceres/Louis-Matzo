@@ -532,6 +532,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
     iframe{
         height:140vh;
     }
+
+    .footer-card >h1{
+        text-align: center;
+    }
 }
 
 
