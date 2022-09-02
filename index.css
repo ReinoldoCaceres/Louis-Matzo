@@ -1,15 +1,20 @@
 *{
     font-family:  Gotham, sans-serif;
 }
- @font-face {
+ /* @font-face {
     font-family: 'Gotham';
     src: url(/fonts/Gotham_Fonts/GothamMedium_1.ttf);
- }
+ } */
 body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 
+}
+
+iframe{
+    height: 110vh;
+    width: 100%;
 }
 
 .title-section-container{
@@ -251,9 +256,7 @@ text-align: center;
 }
 
 
-.footer-section{
-    margin-top: -5%;
-}
+
 
 .footer-cards{
     width: 90%;
@@ -449,7 +452,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
        margin: 0;
     }
 }
+@media only screen and (mas-width: 1920px){
 
+}
+
+@media only screen and (mas-width: 1362px){
+    iframe{
+        height: 10vh !important;
+    }
+}
 @media only screen and (max-width: 768px) {
 
     .portfolio-text{
@@ -538,9 +549,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
         margin-top: 15%;
     }
 
-    iframe{
-        height:140vh;
-    }
 
     .footer-card >h1{
         text-align: center;
