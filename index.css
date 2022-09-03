@@ -12,6 +12,13 @@ body{
 
 }
 
+.scard1{
+}
+
+.gcard{
+    margin-bottom: 5%!important;
+}
+
 iframe{
     height: 100vh;
     width: 100%;
@@ -452,8 +459,20 @@ and (-webkit-min-device-pixel-ratio: 2) {
        margin: 0;
     }
 }
-@media only screen and (mas-width: 1920px){
+@media only screen and (max-width: 1150px){
+    .col-8 > h1 {
+        margin-top: 15%;
+        margin-bottom: 25%;
+        font-size: 100%;
+      }
+}
 
+@media only screen and (max-width: 1050px){
+    .col-8 > h1 {
+        margin-top: 15%;
+        margin-bottom: 25%;
+        font-size: 95%;
+      }
 }
 
 @media only screen and (mas-width: 1362px){
