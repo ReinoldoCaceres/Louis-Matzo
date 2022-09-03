@@ -463,6 +463,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 @media only screen and (max-width: 768px) {
 
+    iframe{
+        height: 20vh !important;
+    }
+
     .portfolio-text{
         text-align: center;
         color: #8F8E8E;
