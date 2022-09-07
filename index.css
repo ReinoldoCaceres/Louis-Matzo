@@ -18,8 +18,9 @@ body{
 }
 
 iframe{
-    height: 100vh;
-    width: 100%;
+    width: 100%; 
+    height: 110vh; 
+    border-width : 0
 }
 
 .title-section-container{
@@ -144,14 +145,7 @@ iframe{
 }
 
 
-.contact-us-section{
-    background-image: url("imgs/green-background.png");
-    background-size:cover;
-    width: 100%;
-    float: left;
-    margin-bottom: 5%;
-    padding-bottom: 5%;
-}
+
 
 .lets-talk-img{
     margin-top: 5%;
@@ -260,6 +254,10 @@ text-align: center;
     margin-bottom: 5%;
 }
 
+.contact-us{
+    overflow-x: hidden;
+    background-image: url("images-copy/contact-background.png");
+}
 
 
 
@@ -473,16 +471,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
       }
 }
 
-@media only screen and (mas-width: 1362px){
-    iframe{
-        height: 20vh !important;
-    }
-}
 @media only screen and (max-width: 768px) {
 
-    iframe{
-        height: 150vh !important;
-    }
 
     .portfolio-text{
         text-align: center;
@@ -579,4 +569,133 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 .thirdrow{
     margin-bottom: 2%;
+}
+
+
+@media only screen and (max-width: 1300px){
+    iframe{
+        width: 100%; 
+        height: 105vh !important; 
+        border-width : 0
+    }
+}
+
+@media only screen and (max-width: 1250px){
+    iframe{
+        width: 100%; 
+        height: 100vh !important; 
+        border-width : 0
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    iframe{
+        width: 100%; 
+        height: 98vh !important; 
+        border-width : 0
+    }
+}
+
+@media only screen and (max-width: 1150px){
+    iframe{
+        width: 100%; 
+        height: 90vh !important; 
+        border-width : 0
+    }
+}
+
+@media only screen and (max-width: 765px){
+    iframe{
+        width: 100%; 
+        height: 170vh !important; 
+        border-width : 0
+    }
+}
+@media only screen and (max-width: 760px){
+    iframe{
+        width: 100%; 
+        height: 100vh !important; 
+        border-width : 0
+    }
+}
+
+
+@media only screen and (max-width: 740px){
+    iframe{
+        width: 100%; 
+        height: 95vh !important; 
+        border-width : 0
+    }
+}
+
+@media only screen and (max-width: 700px){
+    iframe{
+        width: 100%; 
+        height: 90vh !important; 
+        border-width : 0
+    }
+}
+
+@media only screen and (max-width: 600px){
+    iframe{
+        width: 100%; 
+        height: 100vh !important; 
+        border-width : 0
+    }
+}
+
+@media only screen and (max-width: 582px){
+    iframe{
+        width: 100%; 
+        height: 100vh !important; 
+        border-width : 0
+    }
+}
+
+@media only screen and (max-width: 570px){
+    iframe{
+        width: 100%; 
+        height: 160vh !important; 
+        border-width : 0
+    }
+}
+
+@media only screen and (max-width: 550px){
+    iframe{
+        width: 100%; 
+        height: 165vh !important; 
+        border-width : 0
+    }
+}
+
+@media only screen and (max-width: 500px){
+    iframe{
+        width: 100%; 
+        height: 160vh !important; 
+        border-width : 0
+    }
+}
+
+@media only screen and (max-width: 461px){
+    iframe{
+        width: 100%; 
+        height: 155vh !important; 
+        border-width : 0
+    }
+}
+
+@media only screen and (max-width: 440px){
+    iframe{
+        width: 100%; 
+        height: 150vh !important; 
+        border-width : 0
+    }
+}
+
+@media only screen and (max-width: 400px){
+    iframe{
+        width: 100%; 
+        height: 145vh !important; 
+        border-width : 0
+    }
 }
