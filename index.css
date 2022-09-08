@@ -78,7 +78,7 @@ iframe{
 }
 
 .second-row{
-    height: 20vh;
+    height: 135px;
 }
 
 .service-card{
@@ -653,7 +653,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         margin-top: 2%;
       }
     .second-row{
-        height: 17vh;
+        height: 130px;
     }
 }
 
