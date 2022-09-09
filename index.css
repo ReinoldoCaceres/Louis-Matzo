@@ -633,7 +633,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen and (max-width: 821px){
     iframe{
         width: 100%; 
-        height: 60vh !important; 
+        height: 82vh !important; 
         border-width : 0
     }
     .main-content {
@@ -660,7 +660,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen and (max-width: 801px){
     iframe{
         width: 100%; 
-        height: 68vh !important; 
+        height: 82vh !important; 
         border-width : 0
     }
 }
