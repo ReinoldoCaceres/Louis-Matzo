@@ -126,7 +126,7 @@ iframe{
 .col-8 >h1{
     margin-top: 15%;
     margin-bottom: 25%;
-    font-size: 115%;
+    font-size: 110%;
 }
 
 .portfolio-text-box{
@@ -473,7 +473,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .col-8 > h1 {
         margin-top: 15%;
         margin-bottom: 25%;
-        font-size: 1.5rem;
+        font-size: 1rem;
       }
 }
 
