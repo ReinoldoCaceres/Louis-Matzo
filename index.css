@@ -477,6 +477,24 @@ and (-webkit-min-device-pixel-ratio: 2) {
       }
 }
 
+@media only screen and (max-width: 1030px){
+    .col-8 > h1 {
+        margin-top: 15%;
+        margin-bottom: 25%;
+        font-size: 0.9rem;
+      }
+}
+
+@media only screen and (max-width: 991px){
+    .col-8 > h1 {
+        margin-bottom: 25%;
+        font-size: 1.5rem;
+        margin-top: 5% !important;
+        text-align: left;
+      }
+}
+
+
 @media only screen and (max-width: 768px) {
 
 
@@ -569,6 +587,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .footer-card >h1{
         text-align: center;
+    }
+
+    .service-card> p{
+        font-size: 18px !important;
     }
 }
 
