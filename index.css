@@ -603,7 +603,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen and (max-width: 1300px){
     iframe{
         width: 100%; 
-        height: 105vh !important; 
+        height: 05vh !important; 
         border-width : 0
     }
 }
@@ -611,7 +611,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen and (max-width: 1250px){
     iframe{
         width: 100%; 
-        height: 100vh !important; 
+        height: 800vh !important; 
         border-width : 0
     }
 }
@@ -619,7 +619,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen and (max-width: 1200px){
     iframe{
         width: 100%; 
-        height: 98vh !important; 
+        height: 78vh !important; 
         border-width : 0
     }
     .main-content {
@@ -634,7 +634,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen and (max-width: 1150px){
     iframe{
         width: 100%; 
-        height: 95vh !important; 
+        height: 72vh !important; 
         border-width : 0
     }
     .main-content {
