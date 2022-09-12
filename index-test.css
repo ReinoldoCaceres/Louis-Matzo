@@ -14,7 +14,7 @@ body{
 
 .contact-form-frame {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
 }
 
 .contact-us-section{
@@ -674,6 +674,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
       }
 }
 
+@media only screen and (max-width: 835px){
+    .contact-form-frame {
+        width: 100%;
+        height: 60vh;
+      }
+}
+
 @media only screen and (max-width: 821px){
 
     .main-content {
@@ -697,7 +704,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
     .contact-form-frame {
         width: 100%;
-        height: 70vh;
+        height: 60vh;
       }
 }
 
@@ -754,7 +761,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 @media only screen and (max-width:670px) {
     .title-section-container{
-        height: 70vh;
+        height: 100vh;
+    }
+
+    .main-call-img {
+        width: 300px;
     }
 
     .contact-form-frame {
@@ -768,6 +779,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .service-card > p{
         font-size: 1.1rem;
     }
+
+    .maps{
+        margin-top: 10%;
+        margin-bottom: 10%;
+
+    }
 }
 
 @media only screen and (max-width: 582px){
@@ -779,6 +796,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: 100%;
         height: 100vh;
       }
+
 }
 
 @media only screen and (max-width: 570px){
@@ -824,6 +842,49 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen and (max-width: 400px){
     .contact-form-frame {
         width: 100%;
-        height: 100vh;
+        height: 65vh;
       }
 }
+
+
+@media only screen and (max-width: 390px){
+    .contact-form-frame {
+        width: 100%;
+        height: 70vh;
+      }
+}
+
+
+@media only screen and (max-width: 380px){
+    .contact-form-frame {
+        width: 100%;
+        height: 70vh;
+      }
+}
+
+
+@media only screen and (max-width: 361px){
+    .contact-form-frame {
+        width: 100%;
+        height: 70vh;
+      }
+}
+
+
+
+@media only screen and (max-width: 331px){
+    .contact-form-frame {
+        width: 100%;
+        height: 100vh;
+      }
+
+      .title-section-container{
+        height: 150vh;
+    }
+
+    .main-call-img {
+        width: 260px;
+    }
+}
+
+
