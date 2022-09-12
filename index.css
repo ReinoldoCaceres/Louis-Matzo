@@ -603,7 +603,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen and (max-width: 1300px){
     iframe{
         width: 100%; 
-        height: 05vh !important; 
+        height: 105vh !important; 
         border-width : 0
     }
 }
@@ -611,7 +611,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen and (max-width: 1250px){
     iframe{
         width: 100%; 
-        height: 800vh !important; 
+        height: 100vh !important; 
         border-width : 0
     }
 }
@@ -619,7 +619,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen and (max-width: 1200px){
     iframe{
         width: 100%; 
-        height: 78vh !important; 
+        height: 98vh !important; 
         border-width : 0
     }
     .main-content {
@@ -634,7 +634,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen and (max-width: 1150px){
     iframe{
         width: 100%; 
-        height: 72vh !important; 
+        height: 95vh !important; 
         border-width : 0
     }
     .main-content {
@@ -652,37 +652,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 }
 
-@media only screen and (max-width: 835px){
-    iframe{
-        width: 100%; 
-        height: 65vh !important; 
-        border-width : 0
-    }
-    .main-content {
-        float: left;
-        top:50%;
-        transform: translateY(50%);
-        width: 90%;
-        margin-left: 10%;
-        color: white;
-      }
-    .title-section-container {
-        background-image: url("imgs/background-img.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 97%;
-        height: 50vh;
-        margin-top: 2%;
-      }
-    .second-row{
-        height: 130px;
-    }
-}
-
 @media only screen and (max-width: 821px){
     iframe{
         width: 100%; 
-        height: 62vh !important; 
+        height: 82vh !important; 
         border-width : 0
     }
     .main-content {
@@ -709,7 +682,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen and (max-width: 801px){
     iframe{
         width: 100%; 
-        height: 55vh !important; 
+        height: 82vh !important; 
         border-width : 0
     }
 }
@@ -717,7 +690,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen and (max-width: 770px){
     iframe{
         width: 100%; 
-        height: 80vh !important; 
+        height: 90vh !important; 
         border-width : 0
     }
 
@@ -871,4 +844,3 @@ and (-webkit-min-device-pixel-ratio: 2) {
         border-width : 0
     }
 }
-
