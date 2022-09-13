@@ -879,7 +879,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .contact-form-frame {
         width: 100%;
         height: 70vh;
-      }
+    }
+    .title-section-container{
+        height: 80vh;
+    }
 }
 
 
